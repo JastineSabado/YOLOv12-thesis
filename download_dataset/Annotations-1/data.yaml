@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Car', 'Major Accident', 'Minor Accident', 'Motor', 'Not Accident']
+
+roboflow:
+  workspace: thesis-fwlrq
+  project: annotations-okdeo
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/thesis-fwlrq/annotations-okdeo/1
