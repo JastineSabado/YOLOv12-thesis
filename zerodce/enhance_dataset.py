@@ -11,10 +11,10 @@ from zerodce import ZeroDCE, ZeroDCELoss
 
 DATASET_ROOT  = "download_dataset/Annotations-1"
 ENHANCED_ROOT = "download_dataset/Annotations-1-enhanced"
-EPOCHS        = 50
-BATCH_SIZE    = 4
+EPOCHS        = 10
+BATCH_SIZE    = 8
 LR            = 1e-4
-IMG_SIZE      = 512
+IMG_SIZE      = 256
 DEVICE        = "cuda" if torch.cuda.is_available() else "cpu"
 
 class ImageDataset(Dataset):
